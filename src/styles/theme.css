@@ -1,3 +1,48 @@
 :root {
-    ---primary-color: #007bff;
-}
+    /* Define a cor principal da identidade visual - atualmente está 'pink', mas logo abaixo é sobrescrita */
+    --primary: pink;
+ 
+    /* Tons de cinza, geralmente usados para fundos, bordas, textos secundários e elementos neutros */
+    --gray-100: #e6e9f0;  /* Cinza bem claro - ideal para fundos ou divisores sutis */
+    --gray-200: #cdd3e1;  /* Cinza claro */
+    --gray-300: #aab3cc;  /* Cinza médio - pode ser usado para textos desabilitados ou ícones */
+    --gray-400: #555f7d;  /* Cinza escuro */
+    --gray-500: #454f6a;  /* Cinza mais escuro - ideal para elementos em destaque neutro */
+    --gray-600: #363d56;  /* Ainda mais escuro - pode ser fundo de cards ou containers */
+    --gray-700: #272f43;  /* Bem escuro, bom para backgrounds */
+    --gray-800: #181f2e;  /* Próximo do preto */
+    --gray-900: #0a0f1a;  /* Praticamente preto - bom para fundo principal */
+ 
+    /* Cores relacionadas ao "primary", substituindo o valor 'pink' acima */
+    --primary-light: #4de7b7; /* Versão mais clara do primário - usada para hover, efeitos ou destaques suaves */
+    --primary: #0da170;       /* Cor principal real do projeto - usada em botões, links, elementos ativos */
+    --primary-dark: #065f46;  /* Versão mais escura - ideal para estados ativos, foco, ou fundos escuros */
+ 
+    /* Cores de links */
+    --link-color: #10b981;  /* Cor padrão dos links */
+    --link-hover: #0b8a60;  /* Cor quando o mouse passa por cima do link (hover) */
+ 
+    /* Cores para status de sistema (notificações, alertas, etc.) */
+    --success: #22c55e; /* Verde - usado para mensagens de sucesso */
+    --warning: #eab308; /* Amarelo - usado para alertas ou avisos */
+    --error: #991b1b;   /* Vermelho - usado para mensagens de erro */
+    --info: #0ea5e9;    /* Azul - usado para informações úteis ou neutras */
+ 
+    /* Cores do texto que aparece sobre os elementos principais */
+    --text-over-primary: #0a0f1a;       /* Texto sobre fundo primário */
+    --text-over-primary-dark: #e6e9f0;  /* Texto sobre fundo primário escuro */
+    --text-over-primary-light: #0a0f1a; /* Texto sobre fundo primário claro */
+    --text-over-success: #0a0f1a;       /* Texto sobre cor de sucesso */
+    --text-over-warning: #0a0f1a;       /* Texto sobre cor de aviso */
+    --text-over-error: #e6e9f0;         /* Texto sobre cor de erro */
+    --text-over-info: #0a0f1a;          /* Texto sobre cor de informação */
+ 
+    /* Cores padrão para textos */
+    --text-default: #e6e9f0;  /* Cor principal do texto em fundos escuros */
+    --text-muted: #aab3cc;    /* Cor de texto menos importante (secundário, descrições) */
+ 
+    /* Cores para elementos desabilitados */
+    --disabled: #555f7d;       /* Cor de fundo ou borda de algo desabilitado */
+    --text-disabled: #aab3cc;  /* Cor do texto de um elemento desabilitado */
+ }
+ 
