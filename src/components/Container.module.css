@@ -1,0 +1,14 @@
+.container-fluid {
+    max-width: auto; /* Largura máxima do contêiner */
+ }
+ 
+ .container {
+     max-width: 98rem; /* Largura máxima do contêiner principal */
+     margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+ }
+ 
+ .content {
+     margin: 3.2rem; /* Margem superior e inferior do conteúdo principal */
+    
+ 
+ }

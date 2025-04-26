@@ -1,23 +1,22 @@
 import './styles/theme.css'
 import './styles/global.css'
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
+
 
 
 export function App () {  //componente função 
-    return <> 
-        <div className="container"> 
-            <div className="content">
-            <section>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium quo obcaecati ea 
-                doloremque dicta natus enim temporibus! Pariatur nobis ipsam, reprehenderit deleniti asperiores 
-                aliquam dolorem odio eius aspernatur nesciunt?
-            </section>
-            </div>
-        </div>
+    return ( 
+    <> 
+       <Container>
+        <Heading>LOGO</Heading>
+       </Container>
 
-     
-
-    </> ; //que retorna um elemento jsx, <> react fragment
+       <Container>
+        <Heading>MENU</Heading>
+       </Container>
+    </> //que retorna um elemento jsx, <> react fragment
     
-    
+    );
 }
 
