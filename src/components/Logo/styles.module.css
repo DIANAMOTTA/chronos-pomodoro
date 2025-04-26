@@ -1,0 +1,34 @@
+/* Classe utilizada no componente <Heading> para estilizar o título */
+.logo {
+    display: flex; /* Usa Flexbox para alinhar os itens filhos em linha */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 2.4rem; /* Espaço entre os itens filhos */
+    padding-top: 3.2rem; /* Espaçamento superior interno */
+  }
+  
+  .logoLink {
+    display: flex; /* Flexbox para controlar o layout interno do link */
+    flex-direction: column; /* Os elementos internos ficam empilhados na vertical */
+    align-items: center; /* Alinha os elementos no centro horizontalmente */
+    justify-content: center; /* Alinha verticalmente no centro */
+    font-weight: bold; /* Fonte em negrito */
+    gap: 0.4rem; /* Espaço entre os itens dentro do link */
+    font-size: 4.2rem; /* Tamanho da fonte bem grande */
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    color: var(--primary); /* Aplica a cor principal definida no :root */
+    transition: all 0.1s ease-in-out; /* Transição suave de todas as propriedades */
+  }
+  
+  /* Efeito ao passar o mouse sobre o link */
+  .logoLink:hover {
+    filter: brightness(50%); /* Escurece o elemento, criando um efeito de hover */
+  }
+  
+  /* Estilos aplicados especificamente ao ícone SVG dentro do link */
+  .logoLink svg {
+    width: 6.4rem;  /* Define a largura do ícone SVG como 64 pixels (6.4 x 10px, pois usamos font-size 62.5% no HTML) */
+    height: 6.4rem; /* Define a altura do ícone SVG como 64 pixels, mantendo proporção quadrada */
+  }
+  
+  
