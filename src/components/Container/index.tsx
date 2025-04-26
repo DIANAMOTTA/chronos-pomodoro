@@ -1,4 +1,4 @@
-import styles from './Container.module.css';
+import styles from './styles.module.css';
 
 // Define o tipo das props (propriedades) que o componente Container vai receber
 type ContainerProps = {

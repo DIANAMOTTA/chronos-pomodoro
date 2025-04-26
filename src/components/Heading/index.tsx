@@ -3,7 +3,7 @@ import React from 'react';
 
 // Importa os estilos CSS do arquivo 'Heading.module.css' como um objeto chamado 'styles'
 // Esse é o uso de CSS Modules, onde cada classe vira uma propriedade no objeto 'styles'
-import styles from './Heading.module.css';
+import styles from './styles.module.css';
 
 // Define o tipo das props (propriedades) que o componente 'Heading' vai receber
 type HeadingProps = {
